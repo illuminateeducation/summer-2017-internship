@@ -10,9 +10,10 @@ define('iwc_site_app', [
     'view/about.view',
     'view/mexico.view',
     'view/congo.view',
+    'view/media.view',
     'view/contact.view',
     'bootstrap',
-], function($, _, Backbone, MainView, IndexView, AboutView, MexicoView, CongoView, ContactView) {
+], function($, _, Backbone, MainView, IndexView, AboutView, MexicoView, CongoView, MediaView, ContactView) {
 
     var IwcSiteApp = {
 
@@ -43,6 +44,11 @@ define('iwc_site_app', [
             if ($('#page-congo').length) {
                 this.page_view = new CongoView({
                     el: $('#page-congo')
+                });
+            }
+            if ($('#page-media').length) {
+                this.page_view = new MediaView({
+                    el: $('#page-media')
                 });
             }
             if ($('#page-contact').length) {
