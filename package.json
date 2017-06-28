@@ -27,10 +27,8 @@
         "grunt-contrib-watch": "^0.6.1",
         "grunt-curl": "^1.5.1",
         "grunt-exec": "^1.0.1",
-        "grunt-handlebars": "0.0.6",
         "grunt-phpunit": "^0.3.6",
         "grunt-replace": "^0.7.9",
-        "handlebars": "^1.3.0",
         "load-grunt-tasks": "^3.5.2",
         "time-grunt": "^1.4.0"
     },
