@@ -63,8 +63,7 @@
         </div>
     </div>
 
-    <section id="page-media">
-    </section>
+
 
     <footer id="footer" class="site-footer section" role="contentinfo">    
         <div class="container">
@@ -144,6 +143,21 @@
         </div>
     </footer>
 </div>
+<script>
+$(function() {
 
+    var old_image = '';
+
+    $('.col-sm-4 img').on('mouseenter', function(ev) {
+        var new_image = $(ev.currentTarget).data('hover-image');
+        
+        old_image = $(ev.currentTarget).attr('src');
+        $(ev.currentTarget).attr('src', new_image);
+    });
+    $('.col-sm-4 img').on('mouseleave', function(ev) {
+        $(ev.currentTarget).attr('src', old_image);
+    });
+});
+</script>
 </body>
 </html>    
