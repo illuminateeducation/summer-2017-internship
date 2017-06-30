@@ -63,7 +63,74 @@
         </div>
     </div>
 
+    <section id="page-media">
+        
+        <div class="container"><br />
+            <div class="row" style="background-color: rgba(255,255,255,0.25); border-radius: 10px; padding: 10px;">
+                <div class="col-sm-6">
+                    This video shows Santiago's mock for the page he designs. He talks about this thought process
+                    and how he designed the page. Students will go through the mockup process before they even
+                    start coding. You can see additional videos of other students going through the same process.
+                    <br /><br />
 
+                    Be sure to check out the extensive photo gallery of our interns. Check out all the activities
+                    that go on during the Illuminate Summer Camp, and illustrates what they accomplished. We hope you
+                    enjoy the videos, images and work of our talented interns. If you have additional questions,
+                    please check the <a href="./about.html">about section</a>, thank you.
+                </div>
+            </div><br />
+                          
+            <div align="center">
+                <h2 style="margin-bottom: 0px; padding-bottom: 0px;">Photos from the Class of 2016!</h2>
+                <small>Click a photo to enlarge it.</small>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-sm-3">
+                    <img src="./images/about/2017-05-07 09.31.27.jpg" title="" />
+                    <img src="./images/about/2017-05-07 09.58.14.jpg" title="" />
+                </div>
+                <div class="col-sm-3">
+                    <img src=".images/about/bringing-xmas-gifts.jpg" title="Interns looking around the office." />
+                    <img src="./images/media-images/thumbs/summer-code-camp-4.jpg" title="Interns getting ready to setup their chromebooks." />
+                </div>
+                <div class="col-sm-6">
+                    <img id="image-flipper" />
+                </div>
+            </div>
+            <div class="row image-row">
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-5.jpg" title="Rob teaching the class." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-6.jpg" title="Interns getting ready to mock up their pages." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-7.jpg" title="Students designing thier pages." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-8.jpg" title="Joao helping sheyla." /></div>
+            </div>
+            <div class="row image-row">
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-9.jpg"  title="Rob working up with caleb on his markup." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-10.jpg" title="Aylin working on her markup." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-11.jpg" title="Sheyla and erika working on her markup." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-12.jpg" title="Interns helping each other." /></div>
+            </div> 
+            <div class="row image-row">
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-13.jpg" title="Interns working together." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-14.jpg" title="Erika, one of the smmer interns." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-15.jpg" title="Veronica and victoria helping aylin on he page." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-16.jpg" title="Rob head of the intership progam discussing possible designs with the interns." /></div>
+            </div> 
+            <div class="row image-row">
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-17.jpg" title="Veronica and victoria presenting their design." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-18.jpg" title="Santiago presenting his ideas to the class." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-19.jpg" title="Sheyla and erika presenting thier ideas." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-20.jpg" title="Baxter helping aylin with her design." /></div>
+            </div>
+            <div class="row image-row">
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-21.jpg" title="Rob teaching the class." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-22.jpg" title="Matt helping caleb with his site." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-23.jpg" title="Group picture." /></div>
+                <div class="col-sm-3"><img src="./images/media-images/thumbs/summer-code-camp-24.jpg" title="zach helping veronica and victoria with their site." /></div>
+            </div><br />
+            
+        </div>
+    </section>
 
     <footer id="footer" class="site-footer section" role="contentinfo">    
         <div class="container">
@@ -143,21 +210,6 @@
         </div>
     </footer>
 </div>
-<script>
-$(function() {
 
-    var old_image = '';
-
-    $('.col-sm-4 img').on('mouseenter', function(ev) {
-        var new_image = $(ev.currentTarget).data('hover-image');
-        
-        old_image = $(ev.currentTarget).attr('src');
-        $(ev.currentTarget).attr('src', new_image);
-    });
-    $('.col-sm-4 img').on('mouseleave', function(ev) {
-        $(ev.currentTarget).attr('src', old_image);
-    });
-});
-</script>
 </body>
 </html>    
