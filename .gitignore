@@ -1,4 +1,7 @@
 node_modules/
 vendor/
-
 public/libs/
+.DS_Store
+package-lock.json
+public/css/build/
+public/js/build/
